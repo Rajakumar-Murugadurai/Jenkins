@@ -12,9 +12,9 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                # echo "Building Process.."
-                cd myapp
-                pip install -r requirements.txt
+                echo "Building Process.."
+                # cd myapp
+                # pip install -r requirements.txt
                 '''
             }
         }
