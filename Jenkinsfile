@@ -22,10 +22,10 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                # echo "Testing Process.."
-                cd myapp
-                python3 hello.py
-                python3 hello.py --name=Raja
+                echo "Testing Process.."
+                # cd myapp
+                # python3 hello.py
+                # python3 hello.py --name=Raja
                 '''
             }
         }
